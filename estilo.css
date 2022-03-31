@@ -25,14 +25,14 @@ body{
 
 }
 a:link, a:visited{
-    margin:10px;
-    padding: 2px;
+    
+    padding: 8px 10px;
     color: #fff;
     text-decoration: none;
 
 }
 a:hover{
-    padding: 2px;
+    padding: 8px 10px;
     background: #fff;
     color: #f7b600;
 
@@ -44,4 +44,32 @@ h1{
 }
 .branco{
     color: #fff;
+}
+.principal{
+    width: 920px;
+    margin: 0 auto;
+    
+}
+.postagens, .menu-lateral{
+    background: orange;
+}
+.postagens{
+    width: 660px;
+    float: left;
+
+}
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.menu-lateral{
+    width: 240px;
+    float: right;
+}
+.rodape{
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    background: #ccc;
 }
